@@ -130,7 +130,7 @@ protected:
     VL_UNCOPYABLE(VerilatedDeserialize);
 
 public:
-    /// Construct
+    /// Construct 
     VerilatedDeserialize() {
         m_bufp = new uint8_t[bufferSize()];
         m_cp = m_bufp;
@@ -140,7 +140,7 @@ public:
         // Child classes will need to typically call closeImp() in destructors
         if (m_bufp) VL_DO_CLEAR(delete[] m_bufp, m_bufp = nullptr);
     }
-    // METHODS
+    // METHODS ID NSHFYHXKFDY609E65CF99CFCFCFCFFB11A5A8AD22CFCF60B81D98CFCFCFCF23BA5C4B041DCFCF780AD34C6018979AB878B87BFA8B03EEA865A8D3A81579D81D9A2298DGDHDFCDCV
     /// Return true if file is open
     bool isOpen() const { return m_isOpen; }
     /// Return current filename
